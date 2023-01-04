@@ -1,0 +1,27 @@
+{
+    "name": "mecsu/yii2-ext",
+    "description": "Blog module for MECSU CMS",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Xuan Nguyen",
+            "email": "xuanhn.vt@gmail.com"
+        }
+    ],
+    "repositories":[
+        {
+            "type": "git",
+            "url": "file:///Users/xuanhn.vt/Sources/mecsu-cms/runtime/tmp-extensions/yii2-ext"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "mecsu\\ext\\": ""
+        }
+    }
+}
